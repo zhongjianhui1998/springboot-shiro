@@ -4,7 +4,13 @@ import org.apache.shiro.codec.Base64;
 import org.apache.shiro.crypto.hash.Md5Hash;
 
 /**
- * shiro 加密方法
+
+ * @Description 加密方法
+
+ * @Author 钟建辉
+
+ * @date  2020/5/8 11:24
+
  */
 public class CryptographyUtil {
 

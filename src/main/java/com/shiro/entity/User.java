@@ -1,11 +1,14 @@
 package com.shiro.entity;
 
 /**
- * @program: shiro
- * @description:
- * @author: Xue 8
- * @create: 2019-02-01 13:37
- **/
+
+ * @Description 
+
+ * @Author 钟建辉
+
+ * @date  2020/5/8 11:22
+
+ */
 public class User {
     int id;
     String username;

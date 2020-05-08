@@ -1,11 +1,14 @@
 package com.shiro.entity;
 
 /**
- * @program: shiro
- * @description:
- * @author: Xue 8
- * @create: 2019-02-01 13:43
- **/
+
+ * @Description 
+
+ * @Author 钟建辉
+
+ * @date  2020/5/8 11:22
+
+ */
 public class Role {
     int id;
     String name;

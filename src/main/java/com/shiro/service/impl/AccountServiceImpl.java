@@ -13,23 +13,33 @@ import javax.annotation.Resource;
 import java.util.List;
 
 /**
- * @program: shiro
- * @description:
- * @author: Xue 8
- * @create: 2019-02-01 15:37
- **/
+
+ * @Description
+
+ * @Author 钟建辉
+
+ * @date  2020/5/8 11:23
+
+ */
 @Service
 public class AccountServiceImpl implements AccountService {
     @Resource
     AccountDao accountDao;
 
+
     /**
-     * @description: 根据用户名查找用户信息
-     * @param: [username]
-     * @return: com.shiro.entity.User
-     * @author: Xue 8
-     * @date: 2019/2/1
-     */
+
+     * @Description 根据用户名查找用户信息
+
+     * @Author 钟建辉
+
+     * @Date 2020/5/8 11:23
+
+     * @param username
+
+     * @return com.shiro.entity.User
+
+     **/
     @Override
     public User findUserByUsername(String username) {
         return accountDao.findUserByUsername(username);

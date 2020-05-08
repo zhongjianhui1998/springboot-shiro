@@ -18,12 +18,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @program: shiro
- * @description:
- * @author: Xue 8
- * @create: 2019-02-01 15:16
- **/
 
+ * @Description 
+
+ * @Author 钟建辉
+
+ * @date  2020/5/8 11:23
+
+ */
 public class MyRealm extends AuthorizingRealm {
     @Resource
     AccountService accountService;

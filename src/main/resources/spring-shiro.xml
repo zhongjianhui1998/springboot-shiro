@@ -20,7 +20,9 @@
         <property name="filterChainDefinitions">
             <value>
                 <!--配置`/home`只有拥有`admin`角色的用户才可以访问-->
-                /home = authc,roles[admin]
+                /shiro-logout = logout
+                /home = authc,roles[zhong]
+                /** = authc
             </value>
         </property>
     </bean>

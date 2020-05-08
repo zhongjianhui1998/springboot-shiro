@@ -31,6 +31,6 @@
     <a href="<%=request.getContextPath() %>/user/user">普通用户</a><br/>
 </shiro:hasRole>
 
-<a href="<%=request.getContextPath() %>/user/loginOut">退出</a>
+<a href="shiro-logout">Logout</a>
 </body>
 </html>
